@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --background: var(--color-stone-100);
+  --section: var(--color-white);
+  --foreground: var(--color-neutral-950);
+
+  .dark-mode {
+    --background: #212330;
+    --section: #323743;
+    --foreground: #ededed;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-theme: var(--section);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-section: var(--section);
+
+  --color-primary: #41b9ef;
+  --color-primary-dark: #1f77a7;
+  --color-secondary: #1fa87a;
+  --color-secondary-dark: #0f6d52;
+}
+
+@custom-variant inview {
+  &:where(&.is-inview) {
+    @slot;
+  }
+}
+
+@custom-variant motion-on {
+  &:where(.motion-on &) {
+    @slot;
+  }
+}
+
+@custom-variant motion-off {
+  &:where(.motion-off &) {
+    @slot;
+  }
+}
+
+@custom-variant dark {
+  &:where(.dark-mode &) {
+    @slot;
+  }
+}
+
+@layer base {
+  a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+  .dark-mode a {
+    color: var(--color-primary-dark);
+    &:hover {
+      color: var(--color-secondary-dark);
+    }
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .motion-off * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.no-native-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-native-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px var(--color-foreground);
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius:0
+  }
+  100% {
+    transform: translateY(1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+.custom-animate {
+  animation-duration: 19s;
+  animation-name: animate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

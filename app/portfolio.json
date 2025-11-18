@@ -1,0 +1,169 @@
+{
+	"jobs": [{
+			"name": "Square-Enix",
+			"position": "Senior Web Developer",
+			"startDate": "04/2021",
+			"endDate": "01/2026",
+			"description": [
+				"Built, maintained, and published all websites for all of Square-Enix's brands using React, Next.js, and Tailwind CSS",
+				"Published over 50 websites, coordinating development within the team in both California and London",
+				"Refactored at least 5 large repos from JavaScript to TypeScript and from Next Pages router to Next App router",
+				"Led the team towards modular components that would allow faster and easier deployment of new sites",
+				"Was key member of my team to coordinate with the Marketing teams within the Square-Enix America office"
+			],
+            "image": "squareenix.jpg"
+		},
+		{
+			"name": "Activision Publishing",
+			"position": "Senior Web Developer",
+			"startDate": "09/2014",
+			"endDate": "04/2021",
+			"description": [
+				"Lead developer for my.callofduty.com, developing immersive, data-driven features for 4 generations of Call of Duty using Vue.js",
+				"Refactored the My Call of Duty code to be dynamic, scalable, and easy for other developers to dive into",
+				"Produced the Marketing websites for Call of Duty, Destiny, Crash Bandicoot and more within Adobe Experience Manager",
+				"Helped spearhead the transition from AEM's Classic UI to Touch UI",
+				"Worked with the mobile team to contribute to the Call of Duty Companion App using React Native"
+			],
+			"image": "activision.jpg"
+		},
+		{
+			"name": "MarketShare",
+			"position": "Senior Front End Engineer",
+			"startDate": "04/2014",
+			"endDate": "09/2014",
+			"description": [
+				"Prototyped and implemented new ideas in HTML, CSS, and JavaScript frameworks for MarketShare's web marketing analytics software",
+				"Collaborated with a global development team between California and India, conducting 2 daily meetings to improve productivity."
+			],
+			"image": "marketshare.jpg"
+		},
+		{
+			"name": "Beachhead Studios, Activision Publishing",
+			"position": "Front End Engineer",
+			"startDate": "07/2012",
+			"endDate": "02/2014",
+			"description": [
+				"Integral part of the 2012 Call of Duty: Elite launch, which included a complete redesign and brand-new features for Call of Duty: Black Ops II, including Leagues, Zombies and updated Player card",
+				"Developed and optimized native web views for the Call of Duty: Ghosts app for login/registration and news",
+				"Built microsites for key events such as Early Clan Registration and Diamond Division Clan Wars"],
+			"image": "beachhead.jpg"
+		}, {
+			"name": "BeachMint",
+			"position": "Front End Developer",
+			"startDate": "07/2011",
+			"endDate": "04/2012",
+			"description": [
+				"Maintained a network of 5 e-commerce websites under a single JavaScript framework, handling modules including showroom and product pages."
+			],
+			"image": "beachmint.jpg"
+		}, {
+			"name": "likeZEBRA.com",
+			"position": "Web Developer",
+			"startDate": "10/2010",
+			"endDate": "07/2011",
+			"description": [
+				"Led development and maintenance of likeZEBRA's site as sole developer, handling over 20 features.",
+				"Increased user engagement by implementing 4 key features, including Twitter integration, automated wall messages, and the creation of a monetization system.",
+				"Redesigned website architecture to integrate backBEAT feature, supporting a new strategic direction."
+			],
+			"image": "likezebra.jpg"
+			
+		}, {
+			"name": "MyShape.com",
+			"position": "Web Developer",
+			"startDate": "11/2009",
+			"endDate": "10/2010",
+			"description": [
+				"Improved weekly promo asset readiness by 100%, preparing and updating assets using HTML, CSS, JavaScript, PHP, and Photoshop.",
+				"Led redesign of MyShape.com website, enhancing look, layout, and codebase",
+				"Created and optimized 1 HTML email campaigns weekly for compatibility across all major email clients.",
+				"Maintained front-end assets, ensuring consistent performance and visual appeal."
+			],
+			"image": "myshape.jpg"
+			
+		}, {
+			"name": "Sony Online Entertainment",
+			"position": "Web Presence Intern",
+            "startDate": "06/2008",
+            "endDate": "08/2008",
+			"description": [
+				"Redesigned Sony Online Entertainment's Intraweb, improving internal user experience for all employees by implementing modern HTML, CSS, and Javascript techniques.",
+				"Built 3 web updates using HTML, CSS, and Javascript to Sony Online Entertainment's game sites."
+			],
+			"image": "SOE.jpg"
+		}
+	],
+	"projects": [{
+			"name": "Disney Planning",
+			"description": "A Vue.js powered site to plan a Disney World vacation.",
+			"image": "disneyplanning.jpg",
+			"example": {
+				"title": "Check it out",
+				"link": "/disneyplanning"
+			}
+		},
+		
+		{
+			"name": "Shapes Game",
+			"description": "Game in development using Canvas to hit shapes flying across the screen.", 
+			"image": "shapes.jpg",
+			"example": {
+				"title": "Play It",
+				"link": "/shapesgame"
+			}
+		},
+		{
+			"name": "TenTen",
+			"description": "Game built using HTML and JavasScript emulating the Mobile Game 1010.",
+			"image": "tenten.jpg",
+			"example": {
+				"title": "Play It",
+				"link": "/tenten"
+			}
+		
+		}, {
+			"name": "CSS Lens",
+			"description": "A CSS trick where the lens shows a different image than the background",
+			"image": "lens.jpg",
+			"example": {
+				"title": "View It",
+				"link": "/lens"
+			}
+		}, {
+			"name": "Checkerboard Illusion",
+			"description": "A simple checkerboard illusion. Done using CSS3 or JQuery.",
+			"image": "checkerboard.jpg",
+			"example": {
+				"title": "CSS3 Version (Only works in Safari and Chrome)",
+				"link": "/illusion/illusion-css3.html"
+			},
+			"example2": {
+				"title": "JQuery Version",
+				"link": "/illusion/illusion-jquery.html"
+			}
+
+		}
+	],
+	"skills": [{
+			"title": "HTML5",
+			"desc": "Able to build rich, semantic layouts. Experience building mobile templates for both browser and native web view."
+		},
+		{
+			"title": "CSS, SASS, LESS",
+			"desc": "Pages are styled to be responsive and pixel perfect. Always ensure stylings are cross-browser and mobile friendly."
+		},
+		{
+			"title": "Javascript, JQuery, Vue.js",
+			"desc": "Expert at working with both native Javascript and JQuery. Loves to build dynamic and expansive applications with Vue."
+		},
+		{
+			"title": "PHP, MySQL, Node.js, Java",
+			"desc": "Has experience working with back end technologies."
+		},
+		{
+			"title": "Photoshop",
+			"desc": "Expert at slicing templates and generating own images."
+		}
+	]
+}

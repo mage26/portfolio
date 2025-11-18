@@ -1,0 +1,46 @@
+[{
+        "name": "Disney Planning",
+        "description": "A Vue.js powered site to plan a Disney World vacation.",
+        "image": "disneyplanning.jpg",
+        "example": {
+            "title": "Check it out",
+            "link": "/disneyplanning"
+        }
+    },
+    
+    {
+        "name": "Shapes Game",
+        "description": "Game built using Canvas to hit shapes flying across the screen.", 
+        "image": "shapes.jpg",
+        "example": {
+            "title": "Play It",
+            "link": "/shapesgame"
+        }
+    },
+    {
+        "name": "TenTen",
+        "description": "Game built using HTML and JavasScript emulating the Mobile Game 1010.",
+        "image": "tenten.jpg",
+        "example": {
+            "title": "Play It",
+            "link": "/tenten"
+        }
+    
+    }, {
+        "name": "CSS Lens",
+        "description": "A CSS trick where the lens shows a different image than the background",
+        "image": "lens.jpg",
+        "example": {
+            "title": "View It",
+            "link": "/lens"
+        }
+    }, {
+        "name": "Checkerboard Illusion",
+        "description": "A simple checkerboard illusion.",
+        "image": "checkerboard.jpg",
+        "example": {
+            "title": "See It",
+            "link": "/illusion/illusion-css3.html"
+        }
+    }
+]
