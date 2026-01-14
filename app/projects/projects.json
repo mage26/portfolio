@@ -1,5 +1,14 @@
 [
   {
+    "name": "Trivia With Spheres!",
+    "description": "A Trivia game made with React and Tailwind CSS.",
+    "image": "triviaspheres.jpg",
+    "example": {
+      "title": "Play it",
+      "link": "/triviawithspheres"
+    }
+  },
+  {
     "name": "Disney Planning",
     "description": "A Vue.js powered site to plan a Disney World vacation.",
     "image": "disneyplanning.jpg",
